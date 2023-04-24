@@ -105,6 +105,9 @@ while True:
     for i in range(len(itens[3])):  #move nas caixas
         itens[3][i].move(itens,passos)
 
+    if(itens[0].itemrc.y > limitemapy+200): #se cair reinicia
+     
+
     for event in pygame.event.get():    #movimenta o personagem
         if event.type == pygame.KEYDOWN:
             if event.key == pygame.K_DOWN:
