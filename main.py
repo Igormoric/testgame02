@@ -68,10 +68,6 @@ while True:
 
 
     for i in range(len(itens[3])):
-
-        if(itens[0].itemrd.colliderect(itens[3][i].itemrc)): #chara caixa
-            itens[0].gravi()
-
         
         if(itens[0].itemrl.colliderect(itens[3][i].itemrc)): #chara caixa
             if(itens[0].velx<0):
